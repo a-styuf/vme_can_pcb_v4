@@ -4,4 +4,5 @@ Record=SheetSymbol|SourceDocument=vme_can_fpga.SchDoc|Designator=fpga_io|SchDesi
 Record=SheetSymbol|SourceDocument=vme_can_fpga.SchDoc|Designator=fpga_pwr|SchDesignator=fpga_pwr|FileName=vme_can_fpga_pwr.SchDoc|SheetNumber=7|SymbolType=Normal|RawFileName=vme_can_fpga_pwr.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=NoMainPathDocument|SourceDocument=vme_can_fpga.SchDoc|FileName=vme_can_can.SchDoc|SheetNumber=2
 Record=NoMainPathDocument|SourceDocument=vme_can_fpga.SchDoc|FileName=vme_can_main.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=vme_can_fpga.SchDoc|FileName=vme_can_vme.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=vme_can_fpga.SchDoc|FileName=vme_can_vme_1.SchDoc|SheetNumber=8
+Record=NoMainPathDocument|SourceDocument=vme_can_fpga.SchDoc|FileName=vme_can_vme_2.SchDoc|SheetNumber=3
