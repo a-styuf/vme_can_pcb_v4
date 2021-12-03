@@ -23,14 +23,13 @@ DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
 NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
-AutoSheetNumbering=1
-AutoCrossReferences=0
+AutoSheetNumbering=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-IsProjectConflictPreventionWarningsEnabled=0
+IsProjectConflictPreventionWarningsEnabled=1
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
@@ -47,7 +46,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -98,7 +97,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -115,7 +114,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -123,7 +122,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=TVGKBMAN
+DocumentUniqueId=PYNCEMJD
 
 [Document6]
 DocumentPath=vme_can_vme_2.SchDoc
@@ -132,7 +131,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -149,7 +148,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -166,7 +165,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -183,7 +182,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=6
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -200,7 +199,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=7
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -263,6 +262,23 @@ DocumentUniqueId=
 
 [Document14]
 DocumentPath=vme_can_vme_2.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document15]
+DocumentPath=vme_can_vme_1.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -582,32 +598,32 @@ OutputName2=Component Cross Reference Report
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-OutputType3=Export Comments
-OutputName3=Export Comments
+OutputType3=ReportHierarchy
+OutputName3=Report Project Hierarchy
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType4=ReportHierarchy
-OutputName4=Report Project Hierarchy
+OutputType4=Script
+OutputName4=Script Output
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
-OutputType5=Script
-OutputName5=Script Output
+OutputType5=SimpleBOM
+OutputName5=Simple BOM
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=SimpleBOM
-OutputName6=Simple BOM
+OutputType6=SinglePinNetReporter
+OutputName6=Report Single Pin Nets
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=SinglePinNetReporter
-OutputName7=Report Single Pin Nets
+OutputType7=Export Comments
+OutputName7=Export Comments
 OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
@@ -821,6 +837,36 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Ansoft Neutral
+OutputName12=Ansoft Neutral (AutoPCB)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=HyperLynx
+OutputName13=HyperLynx (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=Orcad v7 Capture Design
+OutputName14=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD ASCII
+OutputName15=P-CAD ASCII (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD V16 Schematic Design
+OutputName16=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1220,10 +1266,86 @@ PartTypes=0
 Net1=NetName=3V3|NetColor=$009999FF
 Net2=NetName=5V|NetColor=$006E6EFF
 Net3=NetName=5V_VME|NetColor=$006E6EFF
-Net4=NetName=CAN_5V|NetColor=$000083FD
-Net5=NetName=CAN_GND|NetColor=$0000BE00
-Net6=NetName=GND|NetColor=$006EFF6E
-Net7=NetName=VCC|NetColor=$006E6EFF
+Net4=NetName=A1|NetColor=$005F90F3
+Net5=NetName=A10|NetColor=$005F90F3
+Net6=NetName=A11|NetColor=$005F90F3
+Net7=NetName=A12|NetColor=$005F90F3
+Net8=NetName=A13|NetColor=$005F90F3
+Net9=NetName=A14|NetColor=$005F90F3
+Net10=NetName=A15|NetColor=$005F90F3
+Net11=NetName=A16|NetColor=$005F90F3
+Net12=NetName=A17|NetColor=$005F90F3
+Net13=NetName=A18|NetColor=$005F90F3
+Net14=NetName=A19|NetColor=$005F90F3
+Net15=NetName=A2|NetColor=$005F90F3
+Net16=NetName=A20|NetColor=$005F90F3
+Net17=NetName=A21|NetColor=$005F90F3
+Net18=NetName=A22|NetColor=$005F90F3
+Net19=NetName=A23|NetColor=$005F90F3
+Net20=NetName=A3|NetColor=$005F90F3
+Net21=NetName=A4|NetColor=$005F90F3
+Net22=NetName=A5|NetColor=$005F90F3
+Net23=NetName=A6|NetColor=$005F90F3
+Net24=NetName=A7|NetColor=$005F90F3
+Net25=NetName=A8|NetColor=$005F90F3
+Net26=NetName=A9|NetColor=$005F90F3
+Net27=NetName=AM0|NetColor=$006588E1
+Net28=NetName=AM1|NetColor=$006588E1
+Net29=NetName=AM2|NetColor=$006588E1
+Net30=NetName=AM3|NetColor=$006588E1
+Net31=NetName=AM4|NetColor=$006588E1
+Net32=NetName=AM5|NetColor=$006588E1
+Net33=NetName=AS|NetColor=$00FF6EFF
+Net34=NetName=BCLR|NetColor=$00C1C045
+Net35=NetName=BERR|NetColor=$00C1C045
+Net36=NetName=BGIN0|NetColor=$00C1C045
+Net37=NetName=BGIN1|NetColor=$00C1C045
+Net38=NetName=BGIN2|NetColor=$00C1C045
+Net39=NetName=BGIN3|NetColor=$00C1C045
+Net40=NetName=BGOUT0|NetColor=$00C1C045
+Net41=NetName=BGOUT1|NetColor=$00C1C045
+Net42=NetName=BGOUT2|NetColor=$00C1C045
+Net43=NetName=BGOUT3|NetColor=$00C1C045
+Net44=NetName=BR0|NetColor=$00C1C045
+Net45=NetName=BR1|NetColor=$00C1C045
+Net46=NetName=BR2|NetColor=$00C1C045
+Net47=NetName=BR3|NetColor=$00C1C045
+Net48=NetName=CAN_5V|NetColor=$000083FD
+Net49=NetName=CAN_GND|NetColor=$0000BE00
+Net50=NetName=D0|NetColor=$000083FD
+Net51=NetName=D1|NetColor=$000083FD
+Net52=NetName=D10|NetColor=$000083FD
+Net53=NetName=D11|NetColor=$000083FD
+Net54=NetName=D12|NetColor=$000083FD
+Net55=NetName=D13|NetColor=$000083FD
+Net56=NetName=D14|NetColor=$000083FD
+Net57=NetName=D15|NetColor=$000083FD
+Net58=NetName=D2|NetColor=$000083FD
+Net59=NetName=D3|NetColor=$000083FD
+Net60=NetName=D4|NetColor=$000083FD
+Net61=NetName=D5|NetColor=$000083FD
+Net62=NetName=D6|NetColor=$000083FD
+Net63=NetName=D7|NetColor=$000083FD
+Net64=NetName=D8|NetColor=$000083FD
+Net65=NetName=D9|NetColor=$000083FD
+Net66=NetName=DS0|NetColor=$00FF6EFF
+Net67=NetName=DS1|NetColor=$00FF6EFF
+Net68=NetName=DTACK|NetColor=$000F8BFF
+Net69=NetName=GND|NetColor=$006EFF6E
+Net70=NetName=IACK|NetColor=$00FF6EFF
+Net71=NetName=IACKIN|NetColor=$000F8BFF
+Net72=NetName=IACKOUT|NetColor=$000F8BFF
+Net73=NetName=IRQ1|NetColor=$008E00C5
+Net74=NetName=IRQ2|NetColor=$008E00C5
+Net75=NetName=IRQ3|NetColor=$008E00C5
+Net76=NetName=IRQ4|NetColor=$008E00C5
+Net77=NetName=IRQ5|NetColor=$008E00C5
+Net78=NetName=IRQ6|NetColor=$008E00C5
+Net79=NetName=IRQ7|NetColor=$008E00C5
+Net80=NetName=LWORD|NetColor=$00FF6EFF
+Net81=NetName=SYSRESET|NetColor=$000F8BFF
+Net82=NetName=VCC|NetColor=$006E6EFF
+Net83=NetName=WRITE|NetColor=$00FF6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
