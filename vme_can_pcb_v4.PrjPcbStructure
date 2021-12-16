@@ -1,0 +1,11 @@
+Record=TopLevelDocument|FileName=vme_can_main.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=vme_can_main.SchDoc|Designator=can_0|SchDesignator=can_0|FileName=vme_can_can.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=vme_can_can.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=vme_can_main.SchDoc|Designator=can_1|SchDesignator=can_1|FileName=vme_can_can.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=vme_can_can.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=vme_can_main.SchDoc|Designator=can_2|SchDesignator=can_2|FileName=vme_can_can.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=vme_can_can.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=vme_can_main.SchDoc|Designator=can_3|SchDesignator=can_3|FileName=vme_can_can.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=vme_can_can.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=vme_can_main.SchDoc|Designator=vme_1|SchDesignator=vme_1|FileName=vme_can_vme_2.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=vme_can_vme_2.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=vme_can_main.SchDoc|Designator=vme_2|SchDesignator=vme_2|FileName=vme_can_vme_1.SchDoc|SheetNumber=8|SymbolType=Normal|RawFileName=vme_can_vme_1.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=NoMainPathDocument|SourceDocument=vme_can_main.SchDoc|FileName=vme_can_fpga.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=vme_can_main.SchDoc|FileName=vme_can_fpga_bridge.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=vme_can_main.SchDoc|FileName=vme_can_fpga_conf.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=vme_can_main.SchDoc|FileName=vme_can_fpga_pwr.SchDoc|SheetNumber=8
